@@ -17,14 +17,22 @@
 
 ## Version Compatibility
 
- Laravel  | OAuth Server | PHP
-:---------|:-------------|:----
- 4.0.x    | 1.0.x        |>= 5.3
- 4.1.x    | 1.0.x        |>= 5.3
- 4.2.x    | 3.0.x        |>= 5.4
- 5.0.x    | 4.0.x        |>= 5.4
- 5.1.x    | 5.0.x        |>= 5.5.9
- 5.2.x    | 5.1.x        |>= 5.5.9
+ Laravel        | OAuth Server | PHP
+:---------------|:-------------|:----
+ 4.0.x          | 1.0.x        |>= 5.3
+ 4.1.x          | 1.0.x        |>= 5.3
+ 4.2.x          | 3.0.x        |>= 5.4
+ 5.0.x          | 4.0.x        |>= 5.4
+ 5.1.x to 5.4.x | 5.2.x        |>= 5.5.9
+ 5.5.x          | 5.3.x        |>= 7.0.0
+
+## Installation
+```
+composer config repositories.oauth2-server-laravel vcs https://github.com/vmartins/oauth2-server-laravel.git
+```
+```
+composer require lucadegasperi/oauth2-server-laravel "^5.3" 
+```
 
 ## Documentation
 
